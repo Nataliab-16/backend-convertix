@@ -1,7 +1,7 @@
 import { PrismaClient } from "@prisma/client"
 import { Router } from "express"
 import bcrypt from 'bcrypt'
-import { validaSenha } from "../../shared/functionValidaSenha"
+import { validaSenha } from "./shared/functionValidaSenha"
 
 const prisma = new PrismaClient()
 const router = Router()

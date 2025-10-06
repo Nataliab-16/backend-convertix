@@ -5,7 +5,7 @@ import {
   salvarCodigo,
   validarCodigo,
   enviarCodigoPorEmail,
-} from "../../front/src/utils/autentication2FA";
+} from "./utils/autentication2FA";
 
 const router = Router()
 
